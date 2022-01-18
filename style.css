@@ -704,6 +704,12 @@ p {
     margin: auto auto auto auto;
 }
 
+.description{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -714,6 +720,10 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+p {
+    font-size: 15px;
 }
 
 .med-width-whitespace {
