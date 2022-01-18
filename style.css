@@ -690,6 +690,12 @@ p {
     font-family: "Open Sans";
 }
 
+.description{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -704,11 +710,6 @@ p {
     margin: auto auto auto auto;
 }
 
-.description{
-    width: 70%;
-    margin: auto;
-    margin-bottom: 30px;
-}
 
 h2 {
     font-size: 22px;
@@ -820,7 +821,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/dots-bg.WebP");
 }
 
 .bg-lines-h2-bg {
@@ -828,11 +829,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.WebP");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.WebP");
 }
 
 @media (max-width: 1024px) {
