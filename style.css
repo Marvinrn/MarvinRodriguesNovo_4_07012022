@@ -706,8 +706,11 @@ p {
 }
 
 .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 15px auto;
 }
 
 
@@ -751,6 +754,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -764,7 +768,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99);
     padding: 40px 40px 40px 40px;
 }
 
