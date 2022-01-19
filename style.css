@@ -839,7 +839,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.WebP");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("img/image-de-presentation.WebP");
 }
 
 /* modification pour le contraste */
@@ -917,6 +917,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
     .page-container {
         overflow-x: hidden;
         position: relative;
