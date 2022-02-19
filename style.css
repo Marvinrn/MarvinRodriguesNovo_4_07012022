@@ -825,10 +825,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.WebP");
-}
-
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -1060,5 +1056,15 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (max-width: 500px){
+    .bg-banniere {
+        background-image: none;
+    }
+    
+    .bg-presentation {
+        background-image: none;
     }
 }
