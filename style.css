@@ -1059,12 +1059,12 @@ h4 {
     }
 }
 
-@media (max-width: 500px){
+ @media (max-width: 500px){
     .bg-banniere {
-        background-image: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("img/la-chouette-agence-banniere2.WebP");
     }
-    
+
     .bg-presentation {
-        background-image: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("img/image-de-presentation2.WebP");
     }
-}
+} 
